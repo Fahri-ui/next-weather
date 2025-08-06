@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-sky-300 via-blue-400 to-indigo-500 relative overflow-hidden">
-      {/* Animated Cloud Background */}
+      
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-10 left-10 w-32 h-16 bg-white rounded-full blur-sm animate-pulse"></div>
         <div className="absolute top-20 right-20 w-24 h-12 bg-white rounded-full blur-sm animate-pulse delay-1000"></div>
@@ -26,7 +26,7 @@ export default function Home() {
         <div className="absolute bottom-20 left-1/2 w-36 h-18 bg-white rounded-full blur-sm animate-pulse delay-1500"></div>
       </div>
       
-      {/* Floating Particles */}
+      
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-white rounded-full animate-bounce"></div>
         <div className="absolute top-1/3 right-1/4 w-1 h-1 bg-white rounded-full animate-bounce delay-300"></div>
@@ -34,24 +34,24 @@ export default function Home() {
         <div className="absolute bottom-1/3 right-1/3 w-1 h-1 bg-white rounded-full animate-bounce delay-1000"></div>
       </div>
       
-      {/* Gradient Overlay */}
+      
       <div className="absolute inset-0 bg-gradient-to-t from-blue-600/20 via-transparent to-sky-200/30"></div>
       
       <main className="relative z-10 min-h-screen flex flex-col items-center justify-center p-8">
-        {/* Header Section */}
+        
         <div className="text-center mb-12 space-y-4">
           <div className="inline-flex items-center justify-center w-24 h-24 bg-white/90 backdrop-blur-sm rounded-full shadow-2xl mb-6 border-4 border-white/50">
             <span className="text-5xl">🌤️</span>
           </div>
           <h1 className="text-5xl font-bold text-white mb-4 tracking-tight drop-shadow-lg">
-            Aplikasi Cuaca
+            From Fahri 
           </h1>
           <p className="text-lg text-white/90 max-w-md mx-auto leading-relaxed drop-shadow-md">
             Dapatkan informasi cuaca terkini untuk kota favorit Anda dengan mudah dan cepat
           </p>
         </div>
 
-        {/* Search Form */}
+        
         <div className="w-full max-w-md">
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="relative">
@@ -93,7 +93,7 @@ export default function Home() {
           </form>
         </div>
 
-        {/* Footer */}
+        
         <div className="mt-16 text-center">
           <p className="text-sm text-white/80 drop-shadow-sm">
             Didukung oleh data cuaca terpercaya untuk memberikan informasi akurat
